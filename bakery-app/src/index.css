@@ -1,0 +1,246 @@
+/* Reset */
+body {
+  margin: 0;
+  font-family: 'Quicksand', 'Helvetica Neue', sans-serif;
+  color: #4a4a4a;
+  min-height: 100vh;
+}
+
+/* Container */
+.app-container {
+  min-height: 100vh;
+}
+
+/* Header */
+header {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-size: 2.25rem;
+  font-weight: bold;
+  color: #4a4a4a;
+  margin: 0;
+}
+
+header p {
+  margin-top: 0.5rem;
+  font-style: italic;
+  font-size: 1rem;
+  color: #d46a92
+}
+
+.hero-banner {
+  background-image: url("./assets/dessert.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 120px 20px;
+  text-align: center;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+}
+
+/* Hero Section */
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background-image: url("./assets/pink_bg.jpg");
+
+}
+
+
+.hero-section img {
+  border-radius: 1.5rem;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.08);
+  margin-bottom: 1.5rem;
+  width: 100%;
+  max-width: 600px;
+}
+
+.hero-section h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #a4133c;
+  margin-bottom: 0.5rem;
+}
+
+.hero-section p {
+  max-width: 400px;
+  font-size: 0.9rem;
+  color: #c9184a;
+  text-align: center;
+}
+
+/* Products Section */
+.products {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  background-image: url("./assets/menu.jpg");
+  color: #a4133c;
+  text-align: center;
+}
+
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center; /* Center cards horizontally */
+  padding: 2rem;
+}
+
+.product-card {
+  background-color: white;
+  border-radius: 1rem;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  margin: 10px  0;
+  position: relative;
+  width: 180px;
+  height: auto;
+
+
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+}
+
+.product-card img {
+  border-radius: 1rem;
+  height: 160px;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.product-card h3 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #c9184a;
+  margin-bottom: 0.25rem;
+}
+
+.product-card p {
+  color: #d46a92;
+  font-weight: bold;
+}
+
+/* About Section */
+.about {
+  background-color: #ffe3ec;
+  padding: 2rem;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #a4133c;
+  margin-bottom: 1rem;
+}
+
+.about p {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 0.95rem;
+  color: #c9184a;
+}
+
+/* Footer */
+footer {
+  background-color: #ffc8dd;
+  padding: 1rem;
+  text-align: center;
+  font-size: 0.85rem;
+  color: #7a1c38;
+}
+
+
+header, footer {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.flavor-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center; /* Center cards horizontally */
+  padding: 2rem;
+}
+
+.flavor-card {
+  background-color: #fff;
+  border-radius: 1rem;
+  padding: 1.25rem;
+  text-align: center;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 180px;
+  height: auto;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 1rem;
+  color: #333;
+  cursor: pointer;
+}
+
+.flavor-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.about {
+  padding: 4rem 2rem;
+  background-color: #fff5f8;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #d94d7b;
+}
+
+.founder-img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 1rem;
+  margin: 1rem auto 2rem;
+  display: block;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.about p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #444;
+  margin-bottom: 1.5rem;
+}
